@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 PROTOCOL	URI	PATH	METHOD	USER_AGENT_NAME	USER_AGENT_OS	USER_AGENT_DEVICE	OT_USER_AGENT	HOST	HANDLER	BACKEND
 PROTOCOL=https,		PATH=/(landmark|nearby|dishes|cuisine|features|phrase)/*,						HOST=(m|www|secure).opentable.*	passthru	poi_microsite
 PROTOCOL=https,		PATH=/en-US/(landmark|nearby|dishes|cuisine|features|phrase)/*,						HOST=(m|www|secure).opentable.*	passthru	poi_microsite
