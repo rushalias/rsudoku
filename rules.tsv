@@ -2,5 +2,5 @@ PROTOCOL	URI	PATH	HOST	HANDLER	BACKEND
 PROTOCOL=https,		PATH=/(landmark|nearby|dishes|cuisine|features|phrase)/*,	HOST=(m|www|secure).opentable.*	passthru	poi_microsite
 PROTOCOL=https,		PATH=/en-US/(landmark|nearby|dishes|cuisine|features|phrase)/*,	HOST=(m|www|secure).opentable.*	passthru	poi_microsite
 PROTOCOL=https,		PATH=/fr-CA/(landmark|nearby|dishes|cuisine|features|phrase)/*,	HOST=(m|www|secure).opentable.*	passthru	poi_microsite
-PROTOCOL=http,	URI=/dispute-no-show*,  	HOST=(www|secure).opentable.*	redirect 301	https://${HOST}${URI}
-PROTOCOL=https,	URI=/dispute-no-show/*, 	HOST=(www|secure).opentable.*	rewrite	dispute-no-show-microsite /${*URI}
+PROTOCOL=http,	URI=/dispute-no-show*,    HOST=(www|secure).opentable.* redirect 301  https://${HOST}${URI}
+PROTOCOL=https,	URI=/dispute-no-show/*, 	HOST=(www|secure).opentable.* rewrite dispute-no-show-microsite /${*URI}
