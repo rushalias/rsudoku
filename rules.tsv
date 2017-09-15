@@ -2,3 +2,5 @@ PROTOCOL	URI	PATH	HOST	HANDLER	BACKEND
 PROTOCOL=https,		PATH=/(landmark|nearby|dishes|cuisine|features|phrase)/*,	HOST=(m|www|secure).opentable.*	passthru	poi_microsite
 PROTOCOL=https,		PATH=/en-US/(landmark|nearby|dishes|cuisine|features|phrase)/*,	HOST=(m|www|secure).opentable.*	passthru	poi_microsite
 PROTOCOL=https,		PATH=/fr-CA/(landmark|nearby|dishes|cuisine|features|phrase)/*,	HOST=(m|www|secure).opentable.*	passthru	poi_microsite
+# comment 
+# comment
